@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notification popup</title>
+  </head>
+  <body>
+    <h3>Click on any button to get a Notification message</h3>
+    <div class="buttons">
+      <button onclick="showToast(successMsg)">Success</button>
+      <button onclick="showToast(invalidMsg)">Invalid</button>
+      <button onclick="showToast(errorMsg)">Error</button>
+    </div>
+    <div id="toastBox"></div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
